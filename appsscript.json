@@ -1,0 +1,28 @@
+{
+  "timeZone": "America/Toronto",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "CHL Goalie Stats Update",
+      "functionName": "CHLGoalieStatsUpdate"
+    }, {
+      "menuName": "CHL Standings Update",
+      "functionName": "CHLStandingsUpdate"
+    }, {
+      "menuName": "CHL Player Stats Update",
+      "functionName": "CHLPlayerStatsUpdate"
+    }, {
+      "menuName": "Forward_Rankings_Update",
+      "functionName": "Forward_Rankings_Update"
+    }, {
+      "menuName": "Defenseman Rankings Update",
+      "functionName": "DefensemanRankingsUpdate"
+    }, {
+      "menuName": "Goalies Rankings Update",
+      "functionName": "GoaliesRankingsUpdate"
+    }]
+  }
+}
